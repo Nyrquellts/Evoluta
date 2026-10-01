@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nyr.evoluta.common.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractSkeletonEntityMixin",
+    "BlockMixin",
+    "CreeperEntityAccessor",
+    "CreeperEntityMixin",
+    "EntityMixin",
+    "ExplosionMixin",
+    "IceBlockMixin",
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "PistonBlockMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

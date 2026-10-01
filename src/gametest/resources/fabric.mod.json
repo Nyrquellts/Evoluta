@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "evoluta-gametest",
+  "version": "1.0.0",
+  "name": "Evoluta game tests",
+  "description": "Server-side game tests for Evoluta. Development only; never shipped.",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "com.nyr.evoluta.gametest.MutationDataGameTest",
+      "com.nyr.evoluta.gametest.SpawnMutationGameTest",
+      "com.nyr.evoluta.gametest.CombatGameTest",
+      "com.nyr.evoluta.gametest.TacticsGameTest",
+      "com.nyr.evoluta.gametest.LoadGameTest",
+      "com.nyr.evoluta.gametest.ChampionGameTest",
+      "com.nyr.evoluta.gametest.RewardsGameTest",
+      "com.nyr.evoluta.gametest.ShowcaseGameTest",
+      "com.nyr.evoluta.gametest.SoulMeatGameTest",
+      "com.nyr.evoluta.gametest.CreeperGameTest",
+      "com.nyr.evoluta.gametest.GraftGameTest",
+      "com.nyr.evoluta.gametest.AmbushGameTest",
+      "com.nyr.evoluta.gametest.BruteChargeGameTest",
+      "com.nyr.evoluta.gametest.HazardBlockGameTest",
+      "com.nyr.evoluta.gametest.ToolGraftGameTest",
+      "com.nyr.evoluta.gametest.ToolGraftFuzzGameTest",
+      "com.nyr.evoluta.gametest.ToolGraftAuditGameTest",
+      "com.nyr.evoluta.gametest.CombatGraftFuzzGameTest",
+      "com.nyr.evoluta.gametest.HazardFuzzGameTest",
+      "com.nyr.evoluta.gametest.MutantArenaFuzzGameTest"
+    ]
+  },
+  "depends": {
+    "evoluta": "*",
+    "fabric-gametest-api-v1": "*"
+  }
+}

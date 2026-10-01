@@ -1,0 +1,7 @@
+# Normalise line endings: LF in the repository and in working copies, CRLF only for Windows batch files.
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Never touched by line-ending conversion.
+*.png binary
+*.jar binary

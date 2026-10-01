@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "tier=1": [
+      {
+        "model": "evoluta:block/frost_spikes"
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 270
+      }
+    ],
+    "tier=2": [
+      {
+        "model": "evoluta:block/frost_spikes"
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 270
+      }
+    ],
+    "tier=3": [
+      {
+        "model": "evoluta:block/frost_spikes"
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/frost_spikes",
+        "y": 270
+      }
+    ]
+  }
+}

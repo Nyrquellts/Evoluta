@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "evoluta:item/soul_meat/zombie",
+    "layer1": "evoluta:item/soul_meat/zombie_soul"
+  }
+}

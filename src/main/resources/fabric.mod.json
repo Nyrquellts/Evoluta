@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "evoluta",
+  "version": "${version}",
+  "name": "Evoluta",
+  "description": "Night-time mobs evolve into tiered, elemental champions. Data-driven, tag-driven and built to stay out of the tick budget.",
+  "authors": ["NYR"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nyr.evoluta.common.Evoluta"],
+    "client": ["com.nyr.evoluta.client.EvolutaClient"]
+  },
+  "mixins": [
+    "evoluta.mixins.json",
+    {
+      "config": "evoluta.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.116.17"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "item.blight_locator.click": {
+    "subtitle": "subtitles.evoluta.item.blight_locator.click",
+    "sounds": [
+      {
+        "name": "minecraft:note/hat",
+        "volume": 0.5
+      }
+    ]
+  }
+}

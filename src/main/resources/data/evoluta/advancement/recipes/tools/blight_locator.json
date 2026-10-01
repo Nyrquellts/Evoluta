@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "evoluta:blight_locator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_soul_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#evoluta:soul_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "evoluta:blight_locator"
+    ]
+  }
+}

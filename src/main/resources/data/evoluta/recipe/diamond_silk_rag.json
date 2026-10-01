@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SDS",
+    "SDS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "evoluta:diamond_silk_rag",
+    "count": 1
+  }
+}

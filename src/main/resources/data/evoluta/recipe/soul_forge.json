@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "BSB",
+    "BBB"
+  ],
+  "key": {
+    "M": {
+      "tag": "evoluta:soul_meat"
+    },
+    "S": {
+      "item": "minecraft:smithing_table"
+    },
+    "B": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "result": {
+    "id": "evoluta:soul_forge",
+    "count": 1
+  }
+}

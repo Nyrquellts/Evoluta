@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "evoluta:item/blight_locator/08",
+    "layer1": "evoluta:item/blight_locator/gem"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "tier=1": [
+      {
+        "model": "evoluta:block/blight"
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 270
+      }
+    ],
+    "tier=2": [
+      {
+        "model": "evoluta:block/blight"
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 270
+      }
+    ],
+    "tier=3": [
+      {
+        "model": "evoluta:block/blight"
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 90
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 180
+      },
+      {
+        "model": "evoluta:block/blight",
+        "y": 270
+      }
+    ]
+  }
+}

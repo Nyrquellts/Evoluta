@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "tag": "evoluta:soul_meat"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "evoluta:blight_locator"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "evoluta-showcase",
+  "version": "1.0.0",
+  "name": "Evoluta showcase scene",
+  "description": "Development only, never shipped: /function evoluta_showcase:scene builds the scene used to check and film Evoluta.",
+  "environment": "*",
+  "depends": {
+    "evoluta": "*"
+  }
+}
